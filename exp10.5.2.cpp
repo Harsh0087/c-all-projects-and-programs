@@ -16,7 +16,11 @@ public:
 int factorial ::compute_fact(int x)
 {
     int i;
-    do
+    for ( i = 1; i <= x; i++)
+    {
+        fact = fact *i;
+    }
+    
 }
 int main()
 {

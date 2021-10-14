@@ -13,6 +13,6 @@ int main()
     cin>>num2;
 
     cout<<"sum"<<num1+num2;
-    
+    getch();
     return 0;
 }

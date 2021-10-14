@@ -36,6 +36,5 @@ int main()
     // cout<<"enter a number :";
     // cin>>a;
     // cout<<fib(a);
-
     return 0;
 }

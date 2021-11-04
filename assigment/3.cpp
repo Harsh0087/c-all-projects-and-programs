@@ -1,5 +1,3 @@
-//need attention
-
 #include <iostream>
 #include <conio.h>
 using namespace std;
@@ -11,13 +9,6 @@ class employ
     float overtime=16.5;  //overtime is salary per day in dollar
     double grossSalary;
     public:
-    void setdata(int d, float o, float r, double gs)
-    {
-        days=d;
-        overtime=o;
-        rate=r;
-        grossSalary=gs;
-    }
     double salary()
     {
         cout<<"enter how many days you have worked: "<<endl;
